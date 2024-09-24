@@ -10,7 +10,6 @@ use crate::core::{RaylibHandle, RaylibThread};
 use crate::ffi;
 use crate::math::Matrix;
 use crate::models::{Mesh, WeakMaterial};
-use crate::text::Codepoints;
 use std::convert::AsRef;
 use std::ffi::CString;
 

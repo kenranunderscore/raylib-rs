@@ -1,6 +1,5 @@
 //! Text and Font related functions
 //! Text manipulation functions are super unsafe so use rust String functions
-use raylib_sys::LoadUTF8;
 
 use crate::core::math::Vector2;
 use crate::core::texture::{Image, Texture2D};
@@ -11,7 +10,6 @@ use crate::math::Rectangle;
 use std::convert::{AsMut, AsRef};
 use std::ffi::{CString, OsString};
 use std::mem::ManuallyDrop;
-use std::ops::Deref;
 
 fn no_drop<T>(_thing: T) {}
 make_thin_wrapper!(Font, ffi::Font, ffi::UnloadFont);

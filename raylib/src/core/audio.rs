@@ -4,7 +4,6 @@ use crate::ffi;
 use std::ffi::CString;
 use std::marker::PhantomData;
 use std::mem::ManuallyDrop;
-use std::ops::{Deref, DerefMut};
 use std::path::Path;
 
 make_thin_wrapper_lifetime!(Wave, ffi::Wave, RaylibAudio, ffi::UnloadWave);

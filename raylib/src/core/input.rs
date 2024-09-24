@@ -1,5 +1,5 @@
 //! Keyboard, Controller, and Mouse related functions
-use raylib_sys::{GamepadButton, TraceLogLevel};
+use raylib_sys::TraceLogLevel;
 
 use crate::consts::Gesture;
 use crate::core::math::Vector2;
